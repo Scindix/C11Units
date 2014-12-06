@@ -140,7 +140,7 @@ std::ostream& operator<< (std::ostream& out, const Unit& u)
         std::string exponent("");
 
         if(abs(it->exp) != 1)
-            exponent = std::string("^") + std::to_string(it->exp);
+            exponent = std::string("^") + std::to_string(abs(it->exp));
 
         if(it->exp > 0)
             numerator += it->unit + exponent + " ";
