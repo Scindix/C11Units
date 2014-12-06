@@ -1,7 +1,7 @@
 C11Units
 ========
 
-C11Units is a collection 3 C++11 classes that implement units in C++. main.cpp shows an example. Adding new Units is quite simple: Just look at the bottom of C11Units.h / C11Units.cpp
+C11Units is a collection of three C++11 classes that implement units in C++. main.cpp shows an example. Adding new Units is quite simple: Just look at the bottom of C11Units.h / C11Units.cpp
 
 Example:
 
