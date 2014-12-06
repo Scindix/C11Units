@@ -1,7 +1,7 @@
 C11Units
 ========
 
-C11Units is a short code sample of how to work with physical units in C++11. main.cpp shows an example. Adding new Units is quite simple: Just look at the bottom of C11Units.h
+C11Units is a collection 3 C++11 classes that implement units in C++. main.cpp shows an example. Adding new Units is quite simple: Just look at the bottom of C11Units.h / C11Units.cpp
 
 Example:
 
