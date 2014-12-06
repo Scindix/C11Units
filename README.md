@@ -11,18 +11,18 @@ Example:
 int main()
 {
     auto a = 12_N * (1.2_km + 12_m) / 70_min / (0.5_m^2);
-    std::cout << a << std::endl;                        /// 6.92571 kg / s^-3
+    std::cout << a << std::endl;                        /// 6.92571 kg / s^3
 
     /// You can do all kinds of arithmetic operations
     /// (+, -, *, /, nth-power, nth-root; n must be integral)
     auto b = a * 3;
-    std::cout << b << std::endl;                        /// 20.7771 kg / s^-3
+    std::cout << b << std::endl;                        /// 20.7771 kg / s^3
     auto x = b.pow(3);
     auto y = x.root(3);
-    std::cout << x << std::endl;                        /// 8969.28 kg^3 / s^-9
-    std::cout << y << std::endl;                        /// 20.7771 kg / s^-3
+    std::cout << x << std::endl;                        /// 8969.28 kg^3 / s^9
+    std::cout << y << std::endl;                        /// 20.7771 kg / s^3
     auto c = a + b + ((2_mg^2) / (3_ns^6)).root(2);
-    std::cout << c << std::endl;                        /// 53.5227 kg / s^-3
+    std::cout << c << std::endl;                        /// 53.5227 kg / s^3
 
     /// C11Units recognizes known units
     auto d = (120_degSec + 3_rad) / 1_s;
